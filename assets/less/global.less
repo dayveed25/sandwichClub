@@ -1,0 +1,66 @@
+@import url(fonts.less);
+@import url(variable.less);
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    color: #000;
+    font-family: 'ArtegaSans', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    font-size: 16px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    vertical-align: baseline;
+    background: @white;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'ArtegaSans', Helvetica, Arial, sans-serif;
+    margin: 0;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+* input,
+* textarea {
+    -webkit-user-select: initial;
+    -moz-user-select: initial;
+    -khtml-user-select: initial;
+    -ms-user-select: initial;
+}
+
+a {
+    text-decoration: none !important;
+    outline: none;
+
+    &:active {
+        background-color: transparent;
+    }
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+strong {
+    font-weight: 400;
+}
+
+ul,
+li {
+    padding: 0;
+    margin: 0;
+}

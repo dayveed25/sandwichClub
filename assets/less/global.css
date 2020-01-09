@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'ArtegaSans';
+  src: url('../fonts/ArtegraSans-Regular.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ArtegaSans-Bold';
+  src: url('../fonts/ArtegraSans-Bold.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ArtegaSans-Black';
+  src: url('../fonts/ArtegraSans-Black.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+/** Site colours **/
+/**Brand colors**/
+/** Media Queries **/
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+body {
+  color: #000;
+  font-family: 'ArtegaSans', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-size: 16px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: #FFFFFF;
+}
+h1,
+h2,
+h3 {
+  font-family: 'ArtegaSans', Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+* input,
+* textarea {
+  -webkit-user-select: initial;
+  -moz-user-select: initial;
+  -khtml-user-select: initial;
+  -ms-user-select: initial;
+}
+a {
+  text-decoration: none !important;
+  outline: none;
+}
+a:active {
+  background-color: transparent;
+}
+a:hover {
+  text-decoration: none;
+}
+strong {
+  font-weight: 400;
+}
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}

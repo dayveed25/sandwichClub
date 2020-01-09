@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'Larsseit';
+  src: url('../fonts/Larsseit.eot');
+  src: url('../fonts/Larsseit.eot?#iefix') format('embedded-opentype'), url('../fonts/Larsseit.woff2') format('woff2'), url('../fonts/Larsseit.woff') format('woff'), url('../fonts/Larsseit.ttf') format('truetype'), url('../fonts/Larsseit.svg#Larsseit') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Larsseit';
+  src: url('../fonts/Larsseit-Medium.eot');
+  src: url('../fonts/Larsseit-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/Larsseit-Medium.woff2') format('woff2'), url('../fonts/Larsseit-Medium.woff') format('woff'), url('../fonts/Larsseit-Medium.ttf') format('truetype'), url('../fonts/Larsseit-Medium.svg#Larsseit-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+}
+/** Site colours **/
+/**Brand colors**/
+/** Media Queries **/
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+body {
+  color: #4e5457;
+  font-family: 'Larsseit', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-size: 16px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: #ffffff;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Larsseit', Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+* input,
+* textarea {
+  -webkit-user-select: initial;
+  -moz-user-select: initial;
+  -khtml-user-select: initial;
+  -ms-user-select: initial;
+}
+a {
+  text-decoration: none !important;
+  outline: none;
+}
+a:active {
+  background-color: transparent;
+}
+a:hover {
+  text-decoration: none;
+}
+strong {
+  font-weight: 400;
+}
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
